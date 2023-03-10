@@ -43,7 +43,7 @@ export default function () {
             <a href="" target="blank">
               <img src="/icon/Facebook.svg" />
             </a>
-            <a href="" target="blank">
+            <a href="https://www.instagram.com/tlabamazing/" target="blank">
               <img src="/icon/Instagram.svg" />
             </a>
             <a href="" target="blank">
