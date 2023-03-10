@@ -26,7 +26,7 @@ const footerLayanan = [
   { text: "System Information", url: "/" },
 ];
 
-export default function () {
+export default function Footer() {
   return (
     <footer
       className="flex w-screen md:w-[1596px] h-auto md:h-[1002px] -px-[223px] py-[4px] bg-no-repeat"
@@ -60,8 +60,8 @@ export default function () {
             <h2 className="text-[14px] text-[#bbc0c4] font-bold my-3">
               Company
             </h2>
-            {footerCompany.map((v) => (
-              <Link href={v.url} className="font-nunito">
+            {footerCompany.map((v, i) => (
+              <Link href={v.url} className="font-nunito" key={i}>
                 {v.text}
               </Link>
             ))}
@@ -73,8 +73,8 @@ export default function () {
             <h2 className="text-[14px] text-[#bbc0c4] font-bold my-3">
               Layanan
             </h2>
-            {footerLayanan.map((v) => (
-              <Link href={v.url} className="font-nunito">
+            {footerLayanan.map((v, i) => (
+              <Link href={v.url} className="font-nunito" key={i}>
                 {v.text}
               </Link>
             ))}

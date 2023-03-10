@@ -159,7 +159,7 @@ export default function Home() {
         >
           <div className="flex flex-col md:flex-row k md:gap-72 pt-10 px-5 md:p-[125px]">
             <h2 className="font-bold text-[32px] text-[#5A5A5A]">
-              Connect <br/> & Collaborate
+              Connect <br /> & Collaborate
             </h2>
             <div>
               <p className="max-w-[576px] font-nunito text-lg leading-loose text-[#5A5A5A]">
@@ -230,8 +230,8 @@ export default function Home() {
         </div>
 
         <div className="flex flex-wrap gap-3 justify-center mt-[80px] mb-[100px]">
-          {ourPartner.map((v) => (
-            <div className="m-2">
+          {ourPartner.map((v, i) => (
+            <div key={i} className="m-2">
               <div>
                 <img src={v.img} className=" mx-4 w-[153.38] h-[71.81px]" />
               </div>

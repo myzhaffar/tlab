@@ -26,8 +26,8 @@ export default function Header() {
             </Link>
 
             <div className="hidden md:flex gap-10">
-              {navMenus.map((m) => (
-                <Link href={m.href}>
+              {navMenus.map((m, i) => (
+                <Link href={m.href} key={i}>
                   <div className="font-nunito text-base text-[#5A5A5A] ">
                     {m.text}
                   </div>
