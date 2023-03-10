@@ -232,8 +232,8 @@ export default function Home() {
         <div className="flex flex-wrap gap-3 justify-center mt-[80px] mb-[100px]">
           {ourPartner.map((v, i) => (
             <div key={i} className="m-2">
-              <div>
-                <img src={v.img} className=" mx-4 w-[153.38] h-[71.81px]" />
+              <div className="relative mx-4 w-[153.38] h-[71.81px]"  >
+                <Image src={v.img} alt="" fill style={{objectFit:"fill"}} />
               </div>
             </div>
           ))}

@@ -41,13 +41,34 @@ export default function Footer() {
           </p>
           <div className="flex gap-5 mb-8">
             <a href="" target="blank">
-              <img src="/icon/Facebook.svg" />
+              <div className="relative w-[24px] h-[24px] mx-auto">
+                <Image
+                  src={"/icon/Facebook.svg"}
+                  alt=""
+                  fill
+                  style={{ objectFit: "fill" }}
+                />
+              </div>
             </a>
             <a href="https://www.instagram.com/tlabamazing/" target="blank">
-              <img src="/icon/Instagram.svg" />
+              <div className="relative w-[24px] h-[24px] mx-auto">
+                <Image
+                  src={"/icon/Instagram.svg"}
+                  alt=""
+                  fill
+                  style={{ objectFit: "fill" }}
+                />
+              </div>
             </a>
             <a href="" target="blank">
-              <img src="/icon/YouTube.svg" />
+              <div className="relative w-[24px] h-[24px] mx-auto">
+                <Image
+                  src={"/icon/YouTube.svg"}
+                  alt=""
+                  fill
+                  style={{ objectFit: "fill" }}
+                />
+              </div>
             </a>
           </div>
           <p className="text-[11px] font-nunito">
