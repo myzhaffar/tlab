@@ -154,7 +154,7 @@ export default function Home() {
         </div>
 
         <div
-          className=" h-[677px] bg-no-repeat"
+          className=" h-[677px] bg-no-repeat mt-5 md:mt-10"
           style={{ backgroundImage: "url(" + "/img/background1.svg" + ")" }}
         >
           <div className="flex flex-col md:flex-row k md:gap-72 pt-10 px-5 md:p-[125px]">
@@ -229,10 +229,10 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="flex flex-wrap gap-3 justify-center mt-[80px] mb-[100px]">
+        <div className="flex flex-wrap gap-3 justify-center mt-[80px] mb-10 md:mb-[100px]">
           {ourPartner.map((v, i) => (
             <div key={i} className="m-2">
-              <div className="relative mx-4 w-[153.38] h-[71.81px]"  >
+              <div className="relative mx-4 w-[153.38px] h-[71.81px]"  >
                 <Image src={v.img} alt="" fill style={{objectFit:"fill"}} />
               </div>
             </div>

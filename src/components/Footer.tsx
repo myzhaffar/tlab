@@ -32,14 +32,14 @@ export default function Footer() {
       className="flex w-screen md:w-[1596px] h-auto md:h-[1002px] -px-[223px] py-[4px] bg-no-repeat"
       style={{ backgroundImage: "url(" + "/img/background2.svg" + ")" }}
     >
-      <div className="flex flex-col md:flex-row gap-20 justify-around px-3 md:px-[120px] py-[80px]">
-        <div>
-          <p className="font-bold text-[32px] text-[#5A5A5A] mb-4">
+      <div className="flex flex-col md:flex-row gap-10 md:gap-20 justify-around px-3 md:px-[120px] py-[80px]">
+        <div className="text-center md:text-start">
+          <p className="font-bold text-[32px] text-[#5A5A5A] mb-4 ">
             Tlab Amazing
             <br />
             Delivering Innovation
           </p>
-          <div className="flex gap-5 mb-8">
+          <div className="flex gap-5 mb-8 justify-center md:justify-start">
             <a href="" target="blank">
               <div className="relative w-[24px] h-[24px] mx-auto">
                 <Image
@@ -77,7 +77,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <div className="text-[#848d95] flex flex-col gap-4">
+          <div className="text-[#848d95] flex flex-col items-center md:items-start gap-4">
             <h2 className="text-[14px] text-[#bbc0c4] font-bold my-3">
               Company
             </h2>
@@ -90,7 +90,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <div className="text-[#848d95] flex flex-col gap-4">
+          <div className="text-[#848d95] flex flex-col items-center md:items-start gap-4">
             <h2 className="text-[14px] text-[#bbc0c4] font-bold my-3">
               Layanan
             </h2>
@@ -103,7 +103,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <div className="text-[#848d95] max-w-[244px] flex flex-col gap-4">
+          <div className="text-[#848d95] md:max-w-[244px] flex flex-col gap-4 text-center md:text-start">
             <h2 className="text-[14px] text-[#bbc0c4] font-bold my-3">
               Kontak
             </h2>
@@ -119,7 +119,7 @@ export default function Footer() {
                   <br /> Umbulharjo,
                 </p>
                 <p>Yogyakarta - 55162</p>
-                <div className="flex gap-2 mt-5">
+                <div className="flex justify-center md:justify-start gap-2 mt-5">
                   <div className="relative w-5 h-5 ">
                     <Image
                       src={"/icon/phone.svg"}
@@ -139,7 +139,7 @@ export default function Footer() {
                   Pancoran,
                 </p>
                 <p>Jakarta Selatan 12810</p>
-                <div className="flex gap-2 mt-5">
+                <div className="flex justify-center md:justify-start gap-2 mt-5">
                   <div className="relative w-5 h-5 ">
                     <Image
                       src={"/icon/phone.svg"}
